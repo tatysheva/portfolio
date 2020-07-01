@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #ffffff;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    cursor: pointer;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+    // @include media-laptop {
+    //     width: 900px;
+    // }
+    // @include media-tablet {
+    //     width: 700px;
+    // }
+    // @include  media-mobile {
+    //     width: 360px;
+    // }
+}
+
+ button {
+     cursor: pointer;
+ }
