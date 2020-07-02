@@ -1,1 +1,1 @@
- https://tatysheva.github.io/portfolio/.
+https://tatysheva.github.io/portfolio/
