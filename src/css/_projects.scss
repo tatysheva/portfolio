@@ -1,11 +1,17 @@
 .projects__list {
     padding: 100px 0;
     background: #34547a;
+    @include media-laptop {
+        padding: 50px;
+    }
 }
 
 .project {
     display: flex;
     color: #ffffff;
+    @include media-laptop {
+        padding-bottom: 20px;
+    }
 }
 
 .project__icon {
@@ -17,12 +23,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @include media-tablet {
+        justify-content: center;
+    }
 }
 
 
 .skills-content {
     padding-right: 150px;
-    position: relative;    
+    position: relative;  
 }
 
 
@@ -56,6 +65,9 @@
 
 .profile__photo {
     width: 50%;
+    @include media-tablet {
+        display: none;
+    }
 }
 
 .profile__photo img {

@@ -1,6 +1,21 @@
 #hero {
     background: #eeeff1;
     padding: 130px 0;
+    @include media-laptop {
+        padding: 100px 0;
+    }
+    @include media-tablet {
+        padding: 50px 0;
+    }
+    @include media-mobile {
+        padding: 30px 0;
+    }
+}
+
+.hero__img {
+    @include media-tablet {
+        display: none;
+    }
 }
 
 .hero-about {
@@ -13,6 +28,14 @@
     font-weight: 500;
     font-size: 4.8rem;
     line-height: 79px;
+    @include media-laptop {
+        font-size: 4rem;
+        line-height: 59px;
+    }
+    @include media-tabletbig {
+        font-size: 3.2rem;
+        line-height: 49px;
+    }
 }
 
 .hero__subtitle {
@@ -20,8 +43,14 @@
     line-height: 26px;
     padding: 60px 0;
     color: #727272;
+    @include media-tabletbig {
+        padding: 40px 0;
+    }
 }
 
 .hero__content {
     padding-left: 140px;
+    @include media-tabletbig {
+        padding-left: 50px;
+    }
 }

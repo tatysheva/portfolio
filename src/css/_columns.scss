@@ -1,10 +1,24 @@
-  
 .layout-6-column {
     @include columns($width: 15%);
+    @include media-laptop {
+        @include columns($width: 30%);
+        justify-content: center;
+        padding-left: 20px;
+    }
+    @include media-mobile {
+        padding-left: 0;
+    }
 }
 
 .layout-4-column {
     @include columns($width: 21%);
+    @include media-laptop {
+        @include columns($width: 50%);
+        text-align: center;
+    }
+    @include media-mobile {
+        justify-content: center;
+    }
 }
 
 .layout-3-column {
