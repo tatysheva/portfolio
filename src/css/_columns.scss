@@ -1,6 +1,6 @@
   
-.layout-1-column {
-    @include columns($width: 14%);
+.layout-6-column {
+    @include columns($width: 15%);
 }
 
 .layout-4-column {
